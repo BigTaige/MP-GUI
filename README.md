@@ -1,3 +1,2 @@
 # MP-GUI
 CVPR25
-test
