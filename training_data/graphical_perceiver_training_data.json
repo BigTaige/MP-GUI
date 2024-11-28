@@ -1,9 +1,0 @@
- {
-    "icon": {
-    "root": "",
-    "annotation": "graphical_perceiver_training_data_AMEX.jsonl",
-    "data_augment": false,
-    "repeat_time": 1,
-    "length": ""
-  }
-}

@@ -1,9 +1,0 @@
- {
-    "icon": {
-    "root": "",
-    "annotation": "fusion_gate_training_data.jsonl",
-    "data_augment": false,
-    "repeat_time": 1,
-    "length": "93419"
-  }
-}
