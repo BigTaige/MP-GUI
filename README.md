@@ -20,31 +20,31 @@ Follow the steps below to complete the multi-step training process:
 1. **Train Textual Perceiver**
 
    ```bash
-   MP-GUI/model/shell/multi_step_training/train_textual_perceiver.sh
+   sh MP-GUI/model/shell/multi_step_training/train_textual_perceiver.sh
    ```
 
 2. **Train Graphical Perceiver**
 
    ```bash
-   MP-GUI/model/shell/multi_step_training/train_graphical_perceiver.sh
+   sh MP-GUI/model/shell/multi_step_training/train_graphical_perceiver.sh
    ```
 
 3. **Train Spatial Perceiver**
 
    ```bash
-   MP-GUI/model/shell/multi_step_training/train_spatial_perceiver.sh
+   sh MP-GUI/model/shell/multi_step_training/train_spatial_perceiver.sh
    ```
 
 4. **Train Fusion Gate**
 
    ```bash
-   MP-GUI/model/shell/multi_step_training/train_fusion_gate.sh
+   sh MP-GUI/model/shell/multi_step_training/train_fusion_gate.sh
    ```
 
 5. **Complete Training on Benchmark**
 
    ```bash
-   MP-GUI/model/shell/multi_step_training/benchmark.sh
+   sh MP-GUI/model/shell/multi_step_training/benchmark.sh
    ```
 
 ## Datasets
