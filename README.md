@@ -1,13 +1,3 @@
-```markdown
-# Model Startup Guide
-
-Welcome to the **Intern2-VL-8B** model repository. This guide will walk you through setting up the environment, training the model, and preparing the necessary datasets.
-
-## Prerequisites
-
-- Ensure you have `sh` installed on your system.
-- Git installed for repository cloning.
-- Access to the required datasets (links provided below).
 
 ## Setup
 
@@ -21,7 +11,7 @@ Welcome to the **Intern2-VL-8B** model repository. This guide will walk you thro
 
 2. **Download Intern2-VL-8B**
 
-   [Provide the link or instructions to download Intern2-VL-8B here.]
+   [https://modelscope.cn/models/OpenGVLab/InternVL2-8B]
 
 ## Multi-step Training
 
@@ -61,10 +51,10 @@ Follow the steps below to complete the multi-step training process:
 
 The following open-source datasets are used in this project:
 
-- **AMEX:** [http://xxx](http://xxx)
-- **AITW:** [http://xxx](http://xxx)
-- **Rico:** [http://xxx](http://xxx)
-- **Semantic UI:** [http://xxx](http://xxx)
+- **AMEX:** [https://yuxiangchai.github.io/AMEX/]
+- **AITW:** [https://github.com/google-research/google-research/tree/master/android_in_the_wild]
+- **Rico:** [http://www.interactionmining.org/rico.html#quick-downloads]
+- **Semantic UI:** [http://www.interactionmining.org/rico.html]
 
 ### Dataset Preparation
 
