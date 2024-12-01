@@ -91,7 +91,9 @@ After completing each training step, merge the LoRA parameters and update the we
 ## Synthetic Data Generation
 
 You can generate a vast amount of synthetic data using the Qwen2-VL-72B model within the vLLM architecture:
-
+```bash
+python -m vllm.entrypoints.openai.api_server --served-model-name Qwen2-VL-72B-Instruct --model Qwen/Qwen2-VL-72B-Instruct -tp 8
+```
 ```bash
 python pipeline/vllm_pipeline_v2.py
 ```
