@@ -10,7 +10,7 @@
    ```
 
 2. **Download Intern2-VL-8B**
-
+Intern2-VL-8B will be used to initialize the visual backbone, alignment projector and LLM. The other modules of MP-GUI are randomly initialized and trained from scratch as follows:
    [https://modelscope.cn/models/OpenGVLab/InternVL2-8B]
 
 ## Multi-step Training
