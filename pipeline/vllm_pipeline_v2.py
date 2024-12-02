@@ -249,7 +249,6 @@ def _return_local_des(res_json: list, bboxes: list, raw_path: str, idx: int = 0)
         
         resized_image = cv2.resize(img_copy, None, fx=0.7, fy=0.7)
         cv2.imwrite('Fusion_Gate_training/data_vllm/local_des.png', resized_image)
-
         
         coords_str = f'[{x0},{y0},{x1},{y1}]'
         
@@ -264,7 +263,6 @@ def _return_local_des(res_json: list, bboxes: list, raw_path: str, idx: int = 0)
                         "bbox": coords_str,
                         "gt": result
                         })
-
 
 def get_local_des(img_list: list) -> None:
     yolo_model_path = "yolov8/save_weights/best.pt" # You can use other tools to replace
@@ -286,20 +284,20 @@ def get_local_des(img_list: list) -> None:
     with open(f"{output_path}/local_des.json", 'w') as file:
         json.dump(res_json, file)
 
+if __name__ == '__main__':
+    img_txt = 'Fusion_Gate_training/data_vllm/img_path.txt' # txt format image path file, e.g., xx/xx/xx.png
+    with open(img_txt, 'r') as f:
+        img_paths = [line.strip() for line in f.readlines()]
 
-img_txt = 'Fusion_Gate_training/data_vllm/img_path.txt'
-with open(img_txt, 'r') as f:
-    img_paths = [line.strip() for line in f.readlines()]
 
+    print("Generating Global Description.....")
+    get_global_des(img_paths)
 
-print("Generating Global Description.....")
-get_global_des(img_paths)
+    print("Generating Local Description .....")
+    get_local_des(img_paths)
 
-print("Generating Local Description .....")
-get_local_des(img_paths)
-
-print("Generating QA .....")
-get_spf_qa(img_paths)
+    print("Generating QA .....")
+    get_spf_qa(img_paths)
 
 
 
