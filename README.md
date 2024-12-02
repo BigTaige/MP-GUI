@@ -51,10 +51,11 @@ Follow the steps below to complete the multi-step training process:
 
 The following open-source datasets are used in this project:
 
-- **AMEX:** [https://yuxiangchai.github.io/AMEX/](here)
-- **AITW:** [https://github.com/google-research/google-research/tree/master/android_in_the_wild]
-- **Rico:** [http://www.interactionmining.org/rico.html#quick-downloads]
-- **Semantic UI:** [http://www.interactionmining.org/rico.html]
+- **AMEX:** [here](https://yuxiangchai.github.io/AMEX/)
+- **AITW:** [here](https://github.com/google-research/google-research/tree/master/android_in_the_wild)
+- **Rico:** [here](http://www.interactionmining.org/rico.html#quick-downloads)
+- **Semantic UI:** [here](http://www.interactionmining.org/rico.html)
+
 
 ### Dataset Preparation
 
