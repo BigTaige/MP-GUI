@@ -1,0 +1,66 @@
+{
+  "RE": {
+    "root": "",
+    "annotation": "benchmark/RE.jsonl",
+    "data_augment": false,
+    "repeat_time": 1,
+    "length": "15624"
+  },
+
+    "QA": {
+    "root": "",
+    "annotation": "benchmark/QA.jsonl",
+    "data_augment": false,
+    "repeat_time": 1,
+    "length": "10000"
+  },
+  
+    "WC": {
+    "root": "",
+    "annotation": "benchmark/WC.jsonl",
+    "data_augment": false,
+    "repeat_time": 1,
+    "length": "14878"
+  },
+
+    "WS": {
+    "root": "",
+    "annotation": "benchmark/WS.jsonl",
+    "data_augment": false,
+    "repeat_time": 1,
+    "length": "20000"
+  },
+
+    "QAS": {
+    "root": "",
+    "annotation": "benchmark/QAS.jsonl",
+    "data_augment": false,
+    "repeat_time": 1,
+    "length": "10000"
+  },
+
+   "TP": {
+    "root": "",
+    "annotation": "benchmark/TP.jsonl",
+    "data_augment": false,
+    "repeat_time": 1,
+    "length": "14781"
+  },
+
+    "S2W": {
+    "root": "",
+    "annotation": "benchmark/S2W.jsonl",
+    "data_augment": false,
+    "repeat_time": 1,
+    "length": "15743"
+  },
+
+    "CQA": {
+    "root": "",
+    "annotation": "benchmark/CQA.jsonl",
+    "data_augment": false,
+    "repeat_time": 1,
+    "length": "6347"
+  }
+  
+}

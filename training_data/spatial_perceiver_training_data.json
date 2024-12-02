@@ -1,0 +1,9 @@
+{
+    "RP": {
+    "root": "",
+    "annotation": "spatial_perceiver_training_data.jsonl",
+    "data_augment": false,
+    "repeat_time": 1,
+    "length": "200000"
+  }
+}
