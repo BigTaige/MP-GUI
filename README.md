@@ -69,7 +69,7 @@ The following open-source datasets are used in this project:
 
 3. **AITW Specific Processing**
 
-   For AITW, we randomly sample from the **"general"** and **"install"** categories and process them using the following script:
+   For [AITW](https://github.com/google-research/google-research/tree/master/android_in_the_wild), we randomly sample from the **"general"** and **"install"** categories and process them using the following script:
 
    ```bash
    python data_tools/get_small_icon_grounding_data.py
@@ -99,5 +99,5 @@ python -m vllm.entrypoints.openai.api_server --served-model-name Qwen2-VL-72B-In
 python pipeline/vllm_pipeline_v2.py
 ```
 
-Additionally, the `MP-GUI/data_tools` directory provides scripts to create spatial relationship prediction data based on the Semantic UI dataset.
+Additionally, the `MP-GUI/data_tools` directory provides scripts to create spatial relationship prediction data based on the [Semantic UI dataset](http://www.interactionmining.org/rico.html).
 
