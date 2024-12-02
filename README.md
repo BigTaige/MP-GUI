@@ -69,7 +69,7 @@ The following open-source datasets are used in this project:
 
 3. **AITW Specific Processing**
 
-   For AITW, we randomly sample from the **general** and **install** categories and process them using the following script:
+   For AITW, we randomly sample from the **"general"** and **"install"** categories and process them using the following script:
 
    ```bash
    python data_tools/get_small_icon_grounding_data.py
