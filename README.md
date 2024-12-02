@@ -17,25 +17,25 @@ Intern2-VL-8B will be used to initialize the visual backbone, alignment projecto
 
 Follow the steps below to complete the multi-step training process:
 
-1. **Train Textual Perceiver**
+1. **Training Textual Perceiver**
 
    ```bash
    sh MP-GUI/model/shell/multi_step_training/train_textual_perceiver.sh
    ```
 
-2. **Train Graphical Perceiver**
+2. **Training Graphical Perceiver**
 
    ```bash
    sh MP-GUI/model/shell/multi_step_training/train_graphical_perceiver.sh
    ```
 
-3. **Train Spatial Perceiver**
+3. **Training Spatial Perceiver**
 
    ```bash
    sh MP-GUI/model/shell/multi_step_training/train_spatial_perceiver.sh
    ```
 
-4. **Train Fusion Gate**
+4. **Training Fusion Gate**
 
    ```bash
    sh MP-GUI/model/shell/multi_step_training/train_fusion_gate.sh
@@ -51,7 +51,7 @@ Follow the steps below to complete the multi-step training process:
 
 The following open-source datasets are used in this project:
 
-- **AMEX:** [https://yuxiangchai.github.io/AMEX/]
+- **AMEX:** [https://yuxiangchai.github.io/AMEX/](here)
 - **AITW:** [https://github.com/google-research/google-research/tree/master/android_in_the_wild]
 - **Rico:** [http://www.interactionmining.org/rico.html#quick-downloads]
 - **Semantic UI:** [http://www.interactionmining.org/rico.html]
