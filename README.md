@@ -5,6 +5,7 @@
 <div align="center">
   <img width="90%" src="model.png">
 </div>
+
 ## Setup  📄
 
 1. **Configure the Runtime Environment**
@@ -96,9 +97,11 @@ After completing each training step, merge the LoRA parameters and update the we
    Replace the corresponding weight paths in your training scripts with the merged weights.
 
 ## Synthetic Data Generation
+
 <div align="center">
-  <img width="80%" src="pipeline">
+  <img width="80%" src="pipeline.png">
 </div>
+
 You can generate a vast amount of synthetic data using the Qwen2-VL-72B model within the vLLM architecture:
 ```bash
 python -m vllm.entrypoints.openai.api_server --served-model-name Qwen2-VL-72B-Instruct --model Qwen/Qwen2-VL-72B-Instruct -tp 8
