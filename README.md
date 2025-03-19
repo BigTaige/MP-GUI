@@ -1,6 +1,7 @@
 
 ## MP-GUI: Modality Perception with MLLMs for GUI Understanding (CVPR 2025)
-## Setup
+[Paper](https://arxiv.org/abs/2503.14021)
+## Setup  \faRocket
 
 1. **Configure the Runtime Environment**
 
