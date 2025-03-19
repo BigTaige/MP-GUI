@@ -1,7 +1,8 @@
 
 ## MP-GUI: Modality Perception with MLLMs for GUI Understanding (CVPR 2025)
-[Paper](https://arxiv.org/abs/2503.14021)
-## Setup  \faRocket
+[![Paper](http://img.shields.io/badge/Paper-arxiv.2502.18906-99D4C8.svg)](https://arxiv.org/abs/2503.14021)
+
+## Setup  📄
 
 1. **Configure the Runtime Environment**
 
@@ -103,6 +104,7 @@ python pipeline/vllm_pipeline_v2.py
 
 Additionally, the `MP-GUI/data_tools` directory provides scripts to create spatial relationship prediction data based on the [Semantic UI dataset](http://www.interactionmining.org/rico.html).
 
+## Citation
 ```bibtex
 @misc{wang2025mpguimodalityperceptionmllms,
       title={MP-GUI: Modality Perception with MLLMs for GUI Understanding}, 
