@@ -1,5 +1,5 @@
 
-## MP-GUI: Modality Perception with MLLMs for GUI Understanding (CVPR 2025)
+## MP-GUI: Modality Perception with MLLMs for GUI Understanding (🎉 CVPR 2025 🎉)
 [![Paper](http://img.shields.io/badge/Paper-arxiv.2502.18906-99D4C8.svg)](https://arxiv.org/abs/2503.14021)
 
 <div align="center">
