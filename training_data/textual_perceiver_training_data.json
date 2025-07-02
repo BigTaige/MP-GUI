@@ -1,7 +1,7 @@
 {
     "text": {
     "root": "",
-    "annotation": "/mnt_code/user/262866/MP-GUI/training_data/textual_perceiver_training_data.jsonl",
+    "annotation": "MP-GUI/training_data/textual_perceiver_training_data.jsonl",
     "data_augment": false,
     "repeat_time": 1,
     "length": "160031"
